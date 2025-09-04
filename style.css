@@ -1,3 +1,10 @@
 .answer {
 	visibility: hidden;
+	background-color: Pink;
+	line-height: 2;
+	text-indent: 50px;
+}
+.question {
+	display: grid;
+	line-height: 3;
 }
