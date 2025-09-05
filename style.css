@@ -1,10 +1,14 @@
+body {
+	background-color: seashell;
+	font-family: 'Courier New', monospace;
+}
 .answer {
 	visibility: hidden;
 	background-color: Pink;
-	line-height: 2;
+	line-height: 1.2;
 	text-indent: 50px;
+	display: grid;
 }
 .question {
-	display: grid;
-	line-height: 3;
+	line-height: 1.5;
 }
