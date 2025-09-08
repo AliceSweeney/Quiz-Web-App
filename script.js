@@ -1,6 +1,9 @@
 $(document).ready(function() {
 	$(".question").click(function(){
-		$(this).children().filter(".answer").css("visibility", "visible");
+		$(this).siblings().filter(".answer").css("visibility", "visible");
+	});
+	$("button").click(function(){
+		$(this).siblings().filter(".hint").css("visibility", "visible");
 	});
 	$(".answer").hover(function(){
 		$(this).css("font-weight", "bold");

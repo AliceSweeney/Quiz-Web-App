@@ -12,3 +12,6 @@ body {
 .question {
 	line-height: 1.5;
 }
+.hint {
+	visibility: hidden;
+}
